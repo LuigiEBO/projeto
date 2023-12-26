@@ -4,9 +4,9 @@ function togglemode() {
   const img = document.querySelector("#profile img")
   ///vc esqueceu de por a letra maiuscula (l) por isso tava dando erro
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "../CSS/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
   } else {
-    img.setAttribute("src", "../CSS/avatar.png")
+    img.setAttribute("src", "./assets/avatar.png")
   }
   //pegar a tag img
   //substituir a imagem 
