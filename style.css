@@ -59,6 +59,8 @@ body * {
 
  #profile img{
    width: 112px;
+   border-radius: 9999px;
+   border: 2px solid gray;
    /*elementos in-line eu nao consigo aplicar margin */
  }
 
